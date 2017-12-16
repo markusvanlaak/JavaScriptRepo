@@ -1,0 +1,62 @@
+body {
+    //background-image: url("../WhatToDoNext/images/photo-background.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    //font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    //text-shadow: 4px 4px 4px #aaa;
+    bottom:10px;
+    border: none;
+    //border-radius: 10px;
+    //border-color: #6baa4e;
+}
+
+h1 {
+    background-color: rgba(255,0,0,0.2);
+    bottom:10px;
+    //border: dashed;
+    //font-size: 48px;
+    text-align: left;
+}
+
+p {
+    //font-family: 'Comfortaa', cursive;
+    //text-shadow: 10px 10px 10px #6baa4e;
+    //bottom:10px;
+    //border: dashed;
+}
+
+p.blue {
+
+    color: blue;
+    text-align: center;
+}
+
+p.red {
+    color: red;
+    text-align: center;
+}
+
+div, table {
+    font-size: 12px;
+}
+
+#table1 td, #table1 th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+#table1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#table1 tr:hover {background-color: #ddd;}
+
+#table1 th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
